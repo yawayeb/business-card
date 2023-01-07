@@ -1,0 +1,36 @@
+.body {
+    margin: 20px;
+    font-family: v;
+    
+}
+
+.avarter {
+    width: 250px;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px dotted- slateblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+div {
+    background-color: #ddebf8;
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+@keyframes example{
+    from {background-color: #ddebf8;}
+    to {background-color: #d8cefe;}
+  
+}
